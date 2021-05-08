@@ -1,0 +1,2 @@
+curl https://www.business.com/articles/powershell-for-loop/ > txt1.txt
+
