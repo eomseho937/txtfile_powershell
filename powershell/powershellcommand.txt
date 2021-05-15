@@ -1,0 +1,8 @@
+Start-Process notepad
+Stop-Process -processname notepad
+Get-service 
+get-service -name "win*"
+Get-Service | Where-Object {$_.Status -eq "Running"}
+get-eventlog -log "application"
+
+clear-content C:\Users\Dell13\Desktop\this.txt
